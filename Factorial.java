@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Factorial {
 	int i,n;
 boolean n1;
-	long fact=1;
+	
 	
 	Scanner s=new Scanner(System.in);
 	void fact2()
@@ -11,6 +11,7 @@ boolean n1;
 	do {
 			System.out.println("enter the number:");
 		n=s.nextInt();
+		long fact=1;
 		for(i=1;i<=n;i++)
 		{
 			fact=fact*i;
